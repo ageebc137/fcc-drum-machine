@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1280px-Great_Wave_off_Kanagawa2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+  
+#title {
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+  
+#title h1  { padding-top: 20px; }
+  
+#buttons { text-align: center; }
+  
+#drum-machine {
+    position: relative;
+    background-color: rgba(56,56,56,.5);
+    width: 500px;
+    height: 175px;
+    margin: auto;
+    margin-top: 200px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;    
+}
+ 
+.drum-pad {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    outline: 0;
+    border: none;
+    font-size: 12px;
+    margin: 5px;
+}
+ 
+.drum-pad:hover{
+    background-color: grey;
+    border: 1px solid yellow;
+}
+
+.drum-pad:active{
+    background-color: red;
+    color: white;
+    border: 0;
+}
+ 
